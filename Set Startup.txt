@@ -1,0 +1,12 @@
+1.Open Ternimal in your Pi 
+
+2.Login root user (admin), enter the following : su root
+
+3.Edit rc.local file, enter the following : sudo nano /etc/rc.local
+
+4.Scroll down, and just before the "exit 0" line, enter the following : 
+Example: python3 /home/pi/Desktop/Face_Detection/Main.py 
+
+5.Save by Ctrl+X then Y and Enter
+
+6.Test it by Restarting your Pi with : sudo reboot
